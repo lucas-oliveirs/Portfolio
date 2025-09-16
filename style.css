@@ -100,11 +100,36 @@ p.lead { color: var(--muted); margin: 0 0 20px; font-size: 1.1rem;}
 .proj .desc { color: var(--muted); font-size: 14px; margin: 0; flex-grow: 1; }
 .proj a { color: var(--accent); text-decoration: none; font-weight: 600; transition: color 0.2s ease;}
 .proj a:hover { color: var(--accent-hover);}
-.contato-links {
+.contato-card {
+  text-align: center;
+}
+.contato-list {
+  list-style: none;
+  padding: 0;
+  margin: 18px 0 0 0;
   display: flex;
   flex-direction: column;
+  gap: 14px;
+  align-items: center;
+}
+.contato-list a {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: color 0.2s;
+  display: inline-flex;
+  align-items: center;
   gap: 8px;
-  margin-top: 14px;
+}
+.contato-list a:hover {
+  color: var(--accent-hover);
+  text-decoration: underline;
+}
+.contato-list .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 footer {
   max-width: 900px;
