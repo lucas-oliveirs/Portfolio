@@ -3,13 +3,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Portifólio</title>
+  <title>Portfólio</title>
   <meta name="description" content="Portfólio de Lucas de Oliveira — Estudante de Redes de Computadores, interessado em infraestrutura e desenvolvimento.">
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-  
 </head>
 <body>
   <header>
@@ -18,8 +17,8 @@
         <img src="img/foto.png" alt="Foto de Lucas de Oliveira">
       </div>
       <div>
-        <div style="font-weight:700; font-size: 1.1rem;">Lucas de Oliveira</div>
-        <div style="font-size:13px;color:var(--muted)">Estudante de Redes de Computadores • Infraestrutura & Desenvolvimento</div>
+        <div class="nome">Lucas de Oliveira</div>
+        <div class="descricao">Estudante de Redes de Computadores • Infraestrutura & Desenvolvimento</div>
       </div>
     </div>
   </header>
@@ -29,10 +28,10 @@
       <div class="card">
         <h1>Olá — eu sou o Lucas 👋</h1>
         <p class="lead">Estudante de Redes de Computadores com interesse em programação, algoritmos, sistemas operacionais e cybersegurança. Aqui estão alguns projetos e tecnologias que venho estudando.</p>
-        <a class="cta" href="https://github.com/lucas-oliveirs" target="_blank" rel="noopener">Ver meu GitHub</a>
+        <a class="cta" href="https://github.com/lucas-oliveirs" target="_blank" rel="noopener noreferrer">Ver meu GitHub</a>
         <div class="meta">Faculdade de Tecnologia de São Paulo • São Paulo</div>
         
-        <div style="margin-top:24px">
+        <div class="skills-bloco">
           <strong class="meta-title">Tecnologias e linguagens</strong>
           <div class="skills">
             <span class="skill">C</span>
@@ -49,49 +48,46 @@
       </div>
 
       <aside>
-        <div class="card" style="text-align:center">
+        <div class="card contato-card" style="text-align:center">
           <strong class="meta-title">Contato</strong>
-          <div style="margin:10px 0;font-weight:700">Lucas de Oliveira</div>
-          <div style="font-size:14px"><a href="https://www.linkedin.com/in/lucas-de-oliveira-santos-434239239" target="_blank" rel="noopener" style="color:var(--accent);text-decoration:none">LinkedIn</a></div>
-          <div style="font-size:14px;margin-top:8px"><a href="https://github.com/lucas-oliveirs" target="_blank" rel="noopener" style="color:var(--accent);text-decoration:none">GitHub</a></div>
-          <div style="font-size:14px;margin-top:8px"><a href="mailto:lucasolisan00@gmail.com" style="color:var(--accent);text-decoration:none">Email: lucasolisan00@gmail.com</a></div>
-          <div style="font-size:14px;margin-top:8px;color:var(--muted)">Telefone: (11) 97894-4612</div>
+          <div class="nome-contato">Lucas de Oliveira</div>
+          <div class="contato-links">
+            <a href="https://www.linkedin.com/in/lucas-de-oliveira-santos-434239239" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="https://github.com/lucas-oliveirs" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="mailto:lucasolisan00@gmail.com">Email: lucasolisan00@gmail.com</a>
+            <a href="tel:+5511978944612">Telefone: (11) 97894-4612</a>
+          </div>
         </div>
       </aside>
     </section>
 
     <section id="projetos">
-        <br>
       <h2>Projetos populares</h2>
       <div class="projects">
         <article class="card proj">
           <div class="title">Meu-Primeiro-Repositorio</div>
           <p class="desc">Repositório inicial — ponto de partida para aprender Git e GitHub.</p>
-          <div style="margin-top:10px"><a href="https://github.com/lucas-oliveirs/Meu-Primeiro-Repositorio" target="_blank">Abrir no GitHub →</a></div>
+          <div><a href="https://github.com/lucas-oliveirs/Meu-Primeiro-Repositorio" target="_blank" rel="noopener noreferrer">Abrir no GitHub →</a></div>
         </article>
-
         <article class="card proj">
           <div class="title">Calculadora-HTML-CSS-Javascript</div>
           <p class="desc">Calculadora simples com operações básicas e algumas funções extras, feita com HTML, CSS e JavaScript.</p>
-          <div style="margin-top:10px"><a href="https://github.com/lucas-oliveirs/Calculadora-HTML-CSS-Javascript" target="_blank">Abrir no GitHub →</a></div>
+          <div><a href="https://github.com/lucas-oliveirs/Calculadora-HTML-CSS-Javascript" target="_blank" rel="noopener noreferrer">Abrir no GitHub →</a></div>
         </article>
-        
         <article class="card proj">
           <div class="title">Biblioteca</div>
           <p class="desc">Projeto em Java utilizando programação orientada a objetos (POO).</p>
-          <div style="margin-top:10px"><a href="https://github.com/lucas-oliveirs/Biblioteca" target="_blank">Abrir no GitHub →</a></div>
+          <div><a href="https://github.com/lucas-oliveirs/Biblioteca" target="_blank" rel="noopener noreferrer">Abrir no GitHub →</a></div>
         </article>
-
         <article class="card proj">
           <div class="title">PainelLanches</div>
           <p class="desc">Painel de lanchonete que organiza pedidos por código.</p>
-          <div style="margin-top:10px"><a href="https://github.com/lucas-oliveirs/PainelLanches" target="_blank">Abrir no GitHub →</a></div>
+          <div><a href="https://github.com/lucas-oliveirs/PainelLanches" target="_blank" rel="noopener noreferrer">Abrir no GitHub →</a></div>
         </article>
-
         <article class="card proj">
           <div class="title">ProjetoSigno</div>
           <p class="desc">Aplicativo em C# para verificar o signo com base na data de nascimento.</p>
-          <div style="margin-top:10px"><a href="https://github.com/lucas-oliveirs/ProjetoSigno" target="_blank">Abrir no GitHub →</a></div>
+          <div><a href="https://github.com/lucas-oliveirs/ProjetoSigno" target="_blank" rel="noopener noreferrer">Abrir no GitHub →</a></div>
         </article>
       </div>
     </section>
@@ -100,3 +96,5 @@
   <footer id="contato">
     <div>Feito por <strong>Lucas de Oliveira</strong> — Estudante de Redes de Computadores.</div>
   </footer>
+</body>
+</html>
